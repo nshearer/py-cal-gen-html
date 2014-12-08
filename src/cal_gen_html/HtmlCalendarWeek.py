@@ -8,5 +8,10 @@ class HtmlCalendarWeek(object):
         
         
     @property
-    def bands(self):
+    def multi_day_bands(self):
         raise NotImplementedError()
+    
+    
+    @property
+    def single_day_bands(self):
+        raise NotImplementedError()    
